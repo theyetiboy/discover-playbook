@@ -1,353 +1,323 @@
 ---
-title: "Chapter 5 - People"
+title: "Chapter 5 - Workshop Playbook"
 version: "1.0"
 author: "Steve Tarry"
 ---
 
-# Chapter 5 – People
+# Chapter 5 – Workshop Playbook
 
-> *"Technology rarely fails because of technology. It fails because people were not understood."*
+> *"Discovery is a collaborative activity. Great workshops create shared understanding, not just documentation."*
 
 ---
 
 # 5.1 Introduction
 
-Every business capability ultimately depends upon people.
+Workshops are the primary mechanism for discovering how a business operates.
 
-People make decisions.
+Unlike interviews, workshops bring together multiple stakeholders to share perspectives, challenge assumptions and build a common understanding of business problems and opportunities.
 
-People create information.
+This chapter provides a practical guide for planning, facilitating and following up discovery workshops.
 
-People execute processes.
-
-People interpret insights.
-
-People own systems.
-
-Understanding the human landscape is therefore fundamental to successful discovery.
-
-The objective of this chapter is to understand how people contribute to the operation of a business, how decisions are made, where accountability sits and how knowledge flows throughout the organisation.
+The objective is to maximise collaboration while ensuring every session produces meaningful outputs.
 
 ---
 
-# 5.2 Objectives
+# 5.2 Workshop Objectives
 
-The People perspective seeks to understand:
+Every workshop should have clearly defined objectives.
 
-- Who performs the work
-- Who owns the work
-- Who makes decisions
-- Who consumes information
-- Who creates information
-- Who influences decisions
-- Who approves change
-- Who experiences the business problem
+Typical objectives include:
 
----
+- Understand the business problem
+- Explore current ways of working
+- Identify pain points
+- Understand business capabilities
+- Review existing processes
+- Discover data and reporting requirements
+- Identify opportunities for improvement
+- Build consensus across stakeholders
 
-# 5.3 Why People Matter
-
-Many discovery engagements begin by discussing systems and reports.
-
-Successful discovery begins by understanding people.
-
-People determine:
-
-- Business priorities
-- Decision making
-- Organisational culture
-- Ways of working
-- Adoption of change
-- Trust in information
-
-Understanding people enables better solutions.
+Avoid workshops with vague objectives.
 
 ---
 
-# 5.4 What Should Be Discovered?
+# 5.3 Workshop Principles
 
-Discovery should identify:
+Successful workshops should:
 
-## Business Leadership
+- Be collaborative
+- Encourage participation
+- Focus on understanding
+- Capture evidence
+- Challenge assumptions
+- Remain business focused
+- Avoid designing solutions too early
+
+---
+
+# 5.4 Types of Workshop
+
+Different workshops have different objectives.
+
+| Workshop | Purpose |
+|----------|---------|
+| Discovery Workshop | Understand the business domain |
+| Capability Workshop | Identify business capabilities |
+| Process Workshop | Understand workflows |
+| Data Workshop | Understand information and reporting |
+| Technology Workshop | Understand systems and integrations |
+| AI Workshop | Explore automation opportunities |
+| Playback Workshop | Validate findings |
+| Prioritisation Workshop | Rank opportunities |
+
+---
+
+# 5.5 Preparing for the Workshop
+
+Before every workshop:
+
+- Define objectives
+- Confirm attendees
+- Circulate agenda
+- Share pre-reading
+- Prepare templates
+- Confirm room or virtual meeting
+- Test collaboration tools
+- Allocate facilitator and note taker
+
+Preparation reduces wasted workshop time.
+
+---
+
+# 5.6 Participants
+
+Typical participants include:
 
 - Executive Sponsor
-- Department Leaders
-- Budget Holders
-- Strategic Decision Makers
+- Business Owner
+- Product Owner
+- Subject Matter Experts
+- Operational Users
+- Data Representatives
+- Technology Representatives
+- Business Analysts
+- Product Managers
+
+Ensure the right balance between strategic and operational perspectives.
 
 ---
 
-## Business Owners
+# 5.7 Workshop Agenda
 
-Identify ownership of:
+A typical discovery workshop may follow this structure.
 
-- Capabilities
-- Processes
-- Products
-- Services
+| Time | Activity |
+|------|----------|
+| 09:00 | Welcome and introductions |
+| 09:15 | Objectives and scope |
+| 09:30 | Business overview |
+| 10:00 | Current challenges |
+| 10:45 | Break |
+| 11:00 | Process walkthrough |
+| 12:00 | Lunch |
+| 13:00 | Data and reporting |
+| 14:00 | Systems overview |
+| 15:00 | Opportunities |
+| 16:00 | Summary and actions |
 
----
-
-## Operational Users
-
-Understand:
-
-- Daily activities
-- Challenges
-- Pain points
-- Manual work
-- Workarounds
-
----
-
-## Data Community
-
-Identify:
-
-- Data Owners
-- Data Stewards
-- Report Owners
-- KPI Owners
-- Data Custodians
+Adjust timings depending on workshop objectives.
 
 ---
 
-## Technical Community
+# 5.8 Facilitation
 
-Identify:
+The facilitator is responsible for guiding discussion, maintaining focus and encouraging participation.
 
-- Application Owners
-- Solution Architects
-- Engineers
-- Platform Owners
-- Support Teams
+The facilitator should:
 
----
+- Listen actively
+- Ask open questions
+- Encourage quieter participants
+- Manage dominant personalities
+- Keep discussions on topic
+- Record decisions
+- Challenge assumptions respectfully
+- Summarise regularly
 
-## External Participants
-
-Where appropriate identify:
-
-- Customers
-- Suppliers
-- Regulators
-- Partners
-- Third-party providers
+The facilitator should remain neutral throughout the workshop.
 
 ---
 
-# 5.5 Stakeholder Analysis
-
-Every stakeholder should be understood beyond their job title.
-
-Capture:
-
-| Attribute | Description |
-|------------|-------------|
-| Name | Individual |
-| Role | Job title |
-| Responsibility | What they own |
-| Objectives | What success looks like |
-| Decisions | Decisions they make |
-| Information Required | What they need |
-| Systems Used | Technology used |
-| Influence | High / Medium / Low |
-| Interest | High / Medium / Low |
-
----
-
-# 5.6 Decision Mapping
-
-One of the most valuable discovery activities is understanding business decisions.
+# 5.9 Recommended Questions
 
 Examples include:
 
-- Should we approve this contract?
-- Should we commission this programme?
-- Should we renew this licence?
-- Should we invest additional marketing budget?
-- Should we forecast additional revenue?
+## Understanding the Business
 
-For every decision capture:
-
-- Decision owner
-- Decision frequency
-- Inputs required
-- Outputs produced
-- KPIs involved
-- Supporting systems
+- What does success look like?
+- What problems are you trying to solve?
+- What is working well?
 
 ---
 
-# 5.7 Ownership
+## Understanding Processes
 
-Discovery should clearly identify ownership.
-
-Capture ownership for:
-
-- Business capabilities
-- Processes
-- Applications
-- Reports
-- KPIs
-- Data
-- Products
-- Documentation
-
-Avoid situations where ownership is unclear or duplicated.
-
----
-
-# 5.8 Collaboration
-
-Understanding collaboration reveals hidden dependencies.
-
-Questions include:
-
-- Which teams work closely together?
-- Which teams depend on each other?
-- Which teams regularly disagree?
-- Where does information get handed over?
-- Where are communication gaps?
-
----
-
-# 5.9 Recommended Discovery Questions
-
-## Understanding the Team
-
-- What does your team do?
-- What value does your team provide?
-- What keeps your team busy?
-- What would happen if your team stopped operating?
-
----
-
-## Understanding Responsibilities
-
-- What are you personally accountable for?
-- Which decisions do you make?
-- Which decisions require approval?
-- Which activities consume most of your time?
+- Walk us through the process.
+- Where do delays occur?
+- Which activities are manual?
+- Where do errors occur?
 
 ---
 
 ## Understanding Information
 
-- What information do you rely on every day?
-- Which reports are essential?
-- Which reports are ignored?
-- Which information do you not trust?
+- What information do you need?
+- Which reports are trusted?
+- Which reports are no longer useful?
 
 ---
 
-## Understanding Challenges
+## Understanding Technology
 
-- What frustrates your team?
-- What creates delays?
-- Which activities are repetitive?
-- What work is still managed in spreadsheets?
-
----
-
-## Understanding Improvement
-
-- If you could change one thing tomorrow what would it be?
-- Which task would you automate?
-- Which information is difficult to obtain?
-- What should executives understand better?
+- Which systems support this process?
+- Which integrations are important?
+- Which systems cause frustration?
 
 ---
 
-# 5.10 AI Discovery Questions
+## Understanding Value
 
-Artificial Intelligence should always be explored from a people perspective.
-
-Questions include:
-
-- Which tasks are repetitive?
-- Which documents require summarisation?
-- Which emails are repeatedly written?
-- Which decisions could be supported by recommendations?
-- Which knowledge is difficult to find?
-- Which meetings generate large volumes of notes?
+- What would improve your team's effectiveness?
+- Which opportunities would deliver the greatest value?
 
 ---
 
-# 5.11 Deliverables
+# 5.10 Capturing Information
 
-The People perspective should produce:
+Capture information consistently.
+
+Examples include:
+
+- Decisions
+- Risks
+- Assumptions
+- Actions
+- Questions
+- Pain points
+- Opportunities
+- Dependencies
+- Business rules
+
+Record information during the workshop where possible.
+
+---
+
+# 5.11 Managing Challenges
+
+Common challenges include:
+
+- Discussions becoming solution focused
+- Scope expanding
+- Stakeholder disagreement
+- Dominant participants
+- Lack of engagement
+- Time overruns
+- Missing stakeholders
+
+The facilitator should acknowledge these challenges while maintaining workshop objectives.
+
+---
+
+# 5.12 Closing the Workshop
+
+Every workshop should conclude by:
+
+- Summarising findings
+- Confirming actions
+- Reviewing open questions
+- Agreeing next steps
+- Confirming ownership
+- Thanking participants
+
+Ensure participants understand what happens next.
+
+---
+
+# 5.13 After the Workshop
+
+Following the workshop:
+
+- Organise notes
+- Validate findings
+- Update discovery artefacts
+- Record decisions
+- Capture risks
+- Update opportunity register
+- Share outputs
+- Schedule follow-up sessions where required
+
+Discovery continues after the workshop.
+
+---
+
+# 5.14 Workshop Deliverables
+
+Every workshop should contribute towards one or more of the following:
 
 - Stakeholder Register
-- Stakeholder Map
-- Decision Matrix
-- RACI Matrix
-- Ownership Register
-- Communication Map
-- Interview Notes
+- Capability Map
+- Process Maps
+- Business Glossary
+- Data Catalogue
+- System Landscape
+- Pain Point Register
+- Opportunity Register
+- AI Opportunity Register
+- Action Log
 
 ---
 
-# 5.12 Common Challenges
+# 5.15 Workshop Checklist
 
-Typical issues discovered include:
+Before the workshop:
 
-- Unclear ownership
-- Duplicate responsibilities
-- Multiple versions of the truth
-- Poor communication
-- Manual approval chains
-- Knowledge concentrated in individuals
-- Low confidence in reporting
-- Conflicting business priorities
+- Objectives agreed
+- Agenda prepared
+- Attendees confirmed
+- Pre-reading distributed
+- Templates prepared
 
-These findings often reveal opportunities that extend beyond technology.
+During the workshop:
 
----
+- Objectives explained
+- Participation encouraged
+- Notes captured
+- Actions recorded
 
-# 5.13 Best Practices
+After the workshop:
 
-Successful discovery should:
-
-- Listen more than speak
-- Ask open questions
-- Validate assumptions
-- Understand motivations
-- Focus on business outcomes
-- Avoid discussing solutions too early
-- Encourage collaboration
-- Build trust
+- Notes reviewed
+- Outputs updated
+- Findings validated
+- Next steps agreed
 
 ---
 
-# 5.14 Artefacts Produced
+# 5.16 References
 
-| Artefact | Purpose |
-|-----------|----------|
-| Stakeholder Register | Identify participants |
-| Stakeholder Map | Understand relationships |
-| Decision Catalogue | Document business decisions |
-| Ownership Register | Clarify accountability |
-| RACI Matrix | Define responsibilities |
-| Communication Map | Understand information flow |
+> Placeholder references to be completed during bibliography development.
 
----
-
-# 5.15 References
-
-> Placeholder references to be replaced during bibliography development.
-
-- BABOK® Guide (Business Analysis Body of Knowledge)
-- BIZBOK® Guide (Business Architecture Guild)
-- Domain-Driven Design – Eric Evans
-- Team Topologies – Skelton & Pais
+- BABOK® Guide
+- BIZBOK® Guide
+- Agile Business Consortium
+- Design Thinking literature
 
 ---
 
 # Chapter Summary
 
-Understanding people is the foundation of successful discovery.
+Effective workshops are central to successful discovery.
 
-By identifying who performs the work, who owns the outcomes, who makes decisions and how knowledge flows throughout the organisation, discovery teams gain a much richer understanding of the business than technology-focused analysis alone.
+A well-prepared workshop creates shared understanding, uncovers valuable insights and builds consensus across stakeholders. Every workshop should produce tangible artefacts that contribute to the overall discovery engagement and provide a foundation for subsequent analysis, prioritisation and roadmap development.
 
-The next chapter explores the Organisation perspective, examining why the business exists, the capabilities it provides and how value is created.
+The next chapter introduces the Discovery Techniques used throughout the DISCOVER methodology.
