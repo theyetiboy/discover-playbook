@@ -1,6 +1,6 @@
 ---
 title: "Chapter 1 - Introduction"
-version: "1.0"
+version: "1.1"
 author: "Steve Tarry"
 ---
 
@@ -116,7 +116,9 @@ Every workshop should contribute to an enterprise knowledge base that grows over
 
 One of the greatest outcomes of discovery is creating a common business language.
 
-Definitions should be agreed once and reused consistently across the organisation.
+Definitions should be validated, governed and reused consistently across the organisation.
+
+Where different teams legitimately use different meanings, those differences should be made explicit rather than silently collapsed.
 
 ---
 
@@ -214,7 +216,7 @@ The DISCOVER Framework provides the structure for every engagement.
 | **O — Organise** | Structure findings into reusable assets |
 | **V — Validate** | Confirm findings with stakeholders |
 | **E — Evaluate** | Prioritise opportunities |
-| **R — Roadmap** | Define the delivery roadmap |
+| **R — Roadmap** | Translate validated findings into outcome-led direction |
 
 The DISCOVER Framework provides the end-to-end methodology.
 
@@ -224,7 +226,9 @@ At the heart of DISCOVER sits the **POPIT-V Framework**, which provides the lens
 
 # 1.9 The POPIT-V Framework
 
-Every business area is explored using six complementary perspectives.
+DISCOVER considers business areas through six complementary perspectives.
+
+Across an engagement, practitioners should consider all relevant perspectives. Individual workshops should focus only on those needed to achieve the session objective.
 
 | Perspective | Focus |
 |------------|-------|
@@ -235,7 +239,7 @@ Every business area is explored using six complementary perspectives.
 | **Technology** | Systems, applications, integrations and platforms |
 | **Value** | Outcomes, benefits and prioritisation |
 
-Together these perspectives provide a complete understanding of the business and create the foundation for future data products, analytics and AI solutions.
+Together these perspectives reduce blind spots and create a stronger foundation for appropriate business, data, analytics, AI or technology interventions.
 
 ---
 
@@ -280,7 +284,7 @@ Business Action
 Business Value
 ```
 
-This "Golden Thread" ensures that every recommendation can be traced back to a genuine business need.
+This "Golden Thread" helps ensure that every recommendation can be traced backwards to a genuine business need and forwards to measurable value.
 
 ---
 

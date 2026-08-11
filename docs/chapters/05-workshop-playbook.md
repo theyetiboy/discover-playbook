@@ -1,6 +1,6 @@
 ---
 title: "Chapter 5 - Workshop Playbook"
-version: "1.0"
+version: "1.1"
 author: "Steve Tarry"
 ---
 
@@ -66,7 +66,7 @@ Different workshops have different objectives.
 | Process Workshop | Understand workflows |
 | Data Workshop | Understand information and reporting |
 | Technology Workshop | Understand systems and integrations |
-| AI Workshop | Explore automation opportunities |
+| AI Workshop | Test whether AI is appropriate for validated business needs |
 | Playback Workshop | Validate findings |
 | Prioritisation Workshop | Rank opportunities |
 
@@ -109,23 +109,34 @@ Ensure the right balance between strategic and operational perspectives.
 
 # 5.7 Workshop Agenda
 
-A typical discovery workshop may follow this structure.
+There is no single standard agenda for every DISCOVER workshop.
 
-| Time | Activity |
-|------|----------|
-| 09:00 | Welcome and introductions |
-| 09:15 | Objectives and scope |
-| 09:30 | Business overview |
-| 10:00 | Current challenges |
-| 10:45 | Break |
-| 11:00 | Process walkthrough |
-| 12:00 | Lunch |
-| 13:00 | Data and reporting |
-| 14:00 | Systems overview |
-| 15:00 | Opportunities |
-| 16:00 | Summary and actions |
+Build the agenda around:
 
-Adjust timings depending on workshop objectives.
+- the workshop objective;
+- the relevant DISCOVER stage;
+- the selected POPIT-V perspectives;
+- the Golden Thread links being explored;
+- the evidence or artefact that must be captured.
+
+A short decision workshop may focus almost entirely on Process, Information and Value.
+
+An executive session may focus on Organisation and Value.
+
+A technical session may explore Technology and Information after the business context is sufficiently understood.
+
+A simple structure is:
+
+| Section | Purpose |
+|---|---|
+| Welcome, objective and scope | Establish why the session exists |
+| Focused discovery sections | Explore only the business questions relevant to the objective |
+| Validation | Confirm what has been understood and what remains uncertain |
+| Next steps | Assign evidence, actions and follow-up |
+
+Avoid adding process, data, technology, AI or opportunity sections merely because they are available.
+
+The canonical `workshop_agenda.md` template provides a modular structure.
 
 ---
 
@@ -262,18 +273,25 @@ Discovery continues after the workshop.
 
 # 5.14 Workshop Deliverables
 
-Every workshop should contribute towards one or more of the following:
+Every workshop should contribute to one or more useful discovery artefacts, selected according to the session objective.
+
+Examples include:
 
 - Stakeholder Register
 - Capability Map
 - Process Maps
+- Decision Catalogue
+- Business Rules Catalogue
 - Business Glossary
 - Data Catalogue
-- System Landscape
+- Evidence Register
+- Assumption & Open Question Log
 - Pain Point Register
+- Golden Thread Traceability
 - Opportunity Register
-- AI Opportunity Register
 - Action Log
+
+Data Product and AI artefacts should be created only when they are appropriate to the DISCOVER stage and supported by evidence.
 
 ---
 
@@ -305,12 +323,10 @@ After the workshop:
 
 # 5.16 References
 
-> Placeholder references to be completed during bibliography development.
-
-- BABOK® Guide
-- BIZBOK® Guide
-- Agile Business Consortium
-- Design Thinking literature
+- International Institute of Business Analysis (IIBA) (2015) *A Guide to the Business Analysis Body of Knowledge (BABOK® Guide)*. Version 3. Toronto: IIBA.
+- Business Architecture Guild (n.d.) *A Guide to the Business Architecture Body of Knowledge® (BIZBOK® Guide)*. Version 15.0.
+- Design Council (n.d.) *The Double Diamond*. Available from the Design Council.
+- Project Management Institute and Agile Alliance (2017) *Agile Practice Guide*. Newtown Square, PA: Project Management Institute.
 
 ---
 
@@ -318,6 +334,6 @@ After the workshop:
 
 Effective workshops are central to successful discovery.
 
-A well-prepared workshop creates shared understanding, uncovers valuable insights and builds consensus across stakeholders. Every workshop should produce tangible artefacts that contribute to the overall discovery engagement and provide a foundation for subsequent analysis, prioritisation and roadmap development.
+A well-prepared workshop creates shared understanding, uncovers valuable insights and builds consensus across stakeholders. Every workshop should produce only the tangible evidence and artefacts needed for its objective. Those outputs should contribute to the wider discovery engagement and provide a foundation for subsequent analysis, validation, prioritisation and outcome-led roadmap development.
 
 The next chapter introduces the Discovery Techniques used throughout the DISCOVER methodology.

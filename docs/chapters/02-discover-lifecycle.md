@@ -1,6 +1,6 @@
 ---
 title: "Chapter 2 - The DISCOVER Framework"
-version: "1.0"
+version: "1.1"
 author: "Steve Tarry"
 ---
 
@@ -64,11 +64,15 @@ Each stage has:
 
 # 2.3 The Golden Rule
 
-Never progress to the next stage until the current stage has been validated.
+Do not progress on the basis of **critical untested assumptions**.
 
-Discovery is iterative.
+Establish sufficient confidence to move forward, while validating continuously throughout discovery.
 
-If new information emerges later, return to the appropriate stage and refine your understanding.
+DISCOVER is iterative rather than a rigid waterfall.
+
+If new information emerges later, return to the appropriate stage, test the new evidence and refine your understanding.
+
+Perfect certainty is not required. The objective is to reduce important uncertainty enough to make the next decision responsibly.
 
 ---
 
@@ -382,11 +386,13 @@ Confirm that discovery reflects reality.
 
 ## Exit Criteria
 
-✔ Stakeholder agreement
+✔ Material findings reviewed with the appropriate stakeholders
 
-✔ No major gaps
+✔ No critical unresolved gaps blocking evaluation
 
-✔ Shared understanding achieved
+✔ Sufficient shared understanding achieved for the next stage
+
+✔ Remaining assumptions and open questions explicitly recorded
 
 ---
 
@@ -400,23 +406,29 @@ Identify opportunities for improvement.
 
 ## Categories
 
-- Quick Wins
+Potential responses may include:
+
 - Process Improvements
+- Information or Governance Improvements
 - Data Products
-- AI Opportunities
-- Automation
 - Reporting Improvements
-- Platform Enhancements
+- Automation
+- AI Opportunities
+- Technology or Platform Enhancements
+- Changes to roles, ownership or operating model
+
+These are candidate interventions rather than predetermined outputs.
 
 ---
 
 ## Recommended Questions
 
-- If you could fix one thing tomorrow what would it be?
-- Which activity creates the least value?
+- If one business outcome could improve materially, which would matter most?
+- Which activity creates the least value or greatest friction?
 - Which decision lacks sufficient information?
-- What could AI help with?
-- What should never be manual again?
+- What appears to be the underlying cause rather than the symptom?
+- Where could an intervention create measurable value?
+- Where, if anywhere, could AI add value beyond a simpler alternative?
 
 ---
 
@@ -442,36 +454,46 @@ Identify opportunities for improvement.
 
 ## Purpose
 
-Turn discovery into delivery.
+Translate validated discovery into **outcome-led direction for delivery**.
+
+DISCOVER does not create a detailed delivery plan. It establishes what should happen next, why it matters, what it depends upon and how value should be measured.
 
 ---
 
 ## Activities
 
-- Prioritisation
-- Dependency mapping
-- Sequencing
-- Product definition
-- Roadmap creation
+- Confirm prioritised outcomes and opportunities
+- Map dependencies
+- Sequence work using appropriate horizons
+- Identify ownership and decision points
+- Define success measures
+- Identify validation or evidence still required
+- Prepare the hand-off into the organisation's delivery approach
 
 ---
 
 ## Deliverables
 
-- Product Backlog
-- Delivery Roadmap
-- Release Plan
+- Outcome-led Roadmap
+- Dependency Map
+- Benefits / Value Measures
+- Ownership and Governance
+- Delivery Handoff
 - Executive Summary
 
 ---
 
 ## Exit Criteria
 
-✔ Roadmap approved
+✔ Direction and priorities agreed
 
 ✔ Ownership agreed
 
-✔ Delivery can begin
+✔ Dependencies and unresolved assumptions visible
+
+✔ Success measures identified
+
+✔ Delivery teams have sufficient context to plan implementation
 
 ---
 
@@ -486,7 +508,7 @@ Turn discovery into delivery.
 | Organise | Enterprise Ontology |
 | Validate | Agreed Understanding |
 | Evaluate | Opportunity Backlog |
-| Roadmap | Delivery Roadmap |
+| Roadmap | Outcome-led Roadmap |
 
 ---
 
@@ -495,11 +517,12 @@ Turn discovery into delivery.
 Every engagement should follow these principles.
 
 1. Understand before recommending.
-2. Validate before documenting.
+2. Validate continuously.
 3. Model the business before modelling data.
 4. Capture knowledge once.
-5. Create reusable artefacts.
-6. Focus relentlessly on business value.
+5. Create reusable, traceable artefacts.
+6. Separate evidence from assumption.
+7. Focus relentlessly on business value.
 
 ---
 
@@ -507,6 +530,8 @@ Every engagement should follow these principles.
 
 The DISCOVER Framework provides a repeatable methodology for understanding business domains before designing data products, analytics or AI solutions.
 
-Each stage builds upon the previous one, progressively transforming business knowledge into prioritised opportunities and a clear delivery roadmap.
+The stages provide a repeatable structure while allowing learning to move backwards and forwards as evidence changes.
+
+DISCOVER progressively transforms business knowledge into validated opportunities and a clear, outcome-led roadmap that informs — but does not replace — delivery planning.
 
 The following chapter explores **Engagement Preparation**, describing how to prepare for discovery before the first stakeholder workshop.

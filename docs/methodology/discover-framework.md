@@ -1,6 +1,6 @@
 ---
 title: "The DISCOVER Framework"
-version: "1.0"
+version: "1.1"
 author: "Steve Tarry"
 methodology: "DISCOVER"
 ---
@@ -964,6 +964,8 @@ The Roadmap stage answers:
 
 A roadmap should connect proposed activity back to the business problems and outcomes identified during discovery.
 
+DISCOVER is not a delivery lifecycle. The roadmap therefore provides **outcome-led direction for delivery** rather than a detailed release plan, sprint schedule or fully estimated backlog.
+
 ---
 
 ## Key Activities
@@ -1013,15 +1015,15 @@ NOW
 
 NEXT
 │
-├── Strategic Data Products
-├── Process improvement
-├── Integration
+├── Validated strategic opportunities
+├── Process or information improvements
+├── Enabling foundations
 └── Capability development
 
 
 LATER
 │
-├── Advanced AI
+├── Lower-confidence opportunities
 ├── Major transformation
 ├── New capabilities
 └── Strategic innovation
@@ -1033,12 +1035,14 @@ The horizons should represent outcomes and dependencies rather than arbitrary li
 
 ## Typical Artefacts
 
-- Strategic Roadmap
-- Delivery Horizons
+- Outcome-led Roadmap
+- Now / Next / Later Horizons
 - Dependency Map
-- Benefits Register
-- Ownership
+- Benefits / Value Register
+- Ownership and Governance
 - Success Measures
+- Assumptions and Open Questions
+- Delivery Handoff
 - Executive Summary
 - Decision Requests
 
@@ -1549,6 +1553,43 @@ Manual Effort
 
 This traceability strengthens both prioritisation and executive decision-making.
 
+## Traceability IDs
+
+For larger or more complex engagements, stable identifiers may be used to connect discovery artefacts.
+
+The canonical Golden Thread prefixes are:
+
+```text
+STR-001    Strategic Objective
+CAP-001    Business Capability
+PRC-001    Business Process
+DEC-001    Business Decision
+INF-001    Information Requirement
+BR-001     Business Rule
+SYS-001    System / Technology
+DAT-001    Data Asset
+DP-001     Data Product
+ACT-001    Business Action
+VAL-001    Business Value
+```
+
+Supporting discovery records may use:
+
+```text
+EVD-001    Evidence Item
+ASM-001    Assumption
+OQ-001     Open Question
+PAIN-001   Pain Point
+OPP-001    Opportunity
+RSK-001    Risk
+```
+
+Identifiers should be introduced only where they improve traceability.
+
+Once an identifier has been assigned, preserve it across updates. A change in wording, confidence or validation status does not automatically create a new business object.
+
+The detailed traceability model is defined in the **DISCOVER Golden Thread**.
+
 ---
 
 # Discovery Depth
@@ -1658,9 +1699,13 @@ Process Maps
 
 Value Stream Maps
 
+Decision Catalogue
+
 Business Glossary
 
 Business Rules Catalogue
+
+Information / Concept Catalogue
 
 Ontology
 
@@ -1670,19 +1715,27 @@ KPI Catalogue
 
 RACI
 
+Evidence Register
+
+Assumption & Open Question Log
+
 Pain Point Register
 
 Opportunity Register
+
+Benefits / Value Register
+
+Golden Thread Traceability Matrix
 
 Data Product Canvases
 
 AI Opportunity Canvases
 
+Maturity Profile
+
 Prioritisation Matrix
 
-Benefits Assessment
-
-Roadmap
+Outcome-led Roadmap
 
 Executive Summary
 ```
@@ -1690,6 +1743,8 @@ Executive Summary
 The exact outputs should reflect the needs of the engagement.
 
 Do not create artefacts simply because templates exist.
+
+Where a canonical template is available in `docs/assets/templates/`, use it as the default structure so that discovery outputs remain consistent and easier to connect through the Golden Thread.
 
 ---
 

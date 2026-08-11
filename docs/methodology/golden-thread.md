@@ -1,6 +1,6 @@
 ---
 title: "The DISCOVER Golden Thread"
-version: "1.0"
+version: "1.1"
 author: "Steve Tarry"
 methodology: "DISCOVER"
 ---
@@ -2624,13 +2624,15 @@ A simple traceability matrix can be used where a graphical model is unnecessary.
 
 Multiple rows can be used where relationships branch.
 
+The canonical template is available in `docs/assets/templates/golden_thread_traceability.md`.
+
 ---
 
 # Traceability IDs
 
-For larger discovery engagements, unique identifiers may help maintain traceability.
+For larger discovery engagements, unique identifiers may help maintain traceability across multiple artefacts and workshops.
 
-For example:
+The core Golden Thread identifiers are:
 
 ```text
 STR-001    Strategic Objective
@@ -2645,6 +2647,8 @@ INF-044    Information Requirement
 
 BR-021     Business Rule
 
+SYS-018    System / Technology
+
 DAT-105    Data Asset
 
 DP-006     Data Product
@@ -2652,6 +2656,22 @@ DP-006     Data Product
 ACT-012    Business Action
 
 VAL-004    Business Value
+```
+
+Supporting discovery artefacts may use:
+
+```text
+EVD-001    Evidence Item
+
+ASM-001    Assumption
+
+OQ-001     Open Question
+
+PAIN-001   Pain Point
+
+OPP-001    Opportunity
+
+RSK-001    Risk
 ```
 
 Relationships can then be represented explicitly:
@@ -2667,12 +2687,26 @@ DEC-008
   ↓
 INF-044
   ↓
+BR-021
+  ↓
+DAT-105
+  ↓
 DP-006
+  ↓
+ACT-012
   ↓
 VAL-004
 ```
 
-This level of formality should only be introduced where the scale of the engagement justifies it.
+A system identifier such as `SYS-018` may also be connected where technology enables, constrains or provides access to the relevant information or data.
+
+IDs should be **stable**.
+
+If later evidence changes the wording, confidence or validation status of `DEC-008`, update that record rather than automatically creating a new decision.
+
+A new ID should represent a genuinely new business object or discovery record.
+
+This level of formality should only be introduced where the scale or complexity of the engagement justifies it.
 
 ---
 

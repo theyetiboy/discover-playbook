@@ -1,6 +1,6 @@
 ---
 title: "Chapter 3 - Engagement Preparation"
-version: "1.0"
+version: "1.1"
 author: "Steve Tarry"
 ---
 
@@ -111,6 +111,8 @@ Examples include:
 - Reporting improvements
 - Regulatory requirements
 
+A technology, reporting or AI request may be the trigger for discovery, but it should initially be treated as a proposed intervention rather than the business objective. Discovery should establish the underlying outcome, decision, information need and value before confirming a solution direction.
+
 ---
 
 ## What problem are we trying to solve?
@@ -136,7 +138,7 @@ Examples:
 - Improve forecast accuracy.
 - Increase data quality.
 - Improve business decision making.
-- Enable AI capabilities.
+- Improve a defined business outcome where AI may be one possible intervention.
 
 ---
 
@@ -311,13 +313,15 @@ Agree how discovery success will be measured.
 
 Possible measures include:
 
-- Stakeholder engagement
-- Coverage of business capabilities
-- Process documentation completed
-- Business glossary established
-- Data catalogue produced
-- Opportunity backlog created
-- Executive agreement achieved
+- Critical stakeholders and perspectives are represented.
+- The business outcome and scope are sufficiently clear to guide investigation.
+- Important assumptions and uncertainties are visible.
+- Priority capabilities, processes and decisions to investigate are identified.
+- Required evidence sources and knowledge gaps are understood.
+- The next discovery activities are agreed and appropriately focused.
+- Stakeholders share sufficient confidence in the framing to proceed.
+
+Completion of documents or artefacts may support these outcomes, but document production is not itself the measure of successful discovery.
 
 ---
 
@@ -340,7 +344,7 @@ Identify mitigation actions before workshops begin.
 
 # 3.14 Deliverables
 
-The preparation phase should produce:
+The preparation phase should produce the minimum artefacts needed to establish a well-framed engagement. Depending on the context, these may include:
 
 - Discovery Brief
 - Scope Definition
@@ -349,25 +353,29 @@ The preparation phase should produce:
 - Workshop Schedule
 - Initial Capability Map
 - Initial System Landscape
-- Initial Hypothesis Register
+- Initial Hypothesis / Assumption Register
+- Evidence Register
+- Open Question Log
 - Risk Register
+
+Do not create every artefact by default. Select those that help the team understand the problem, expose uncertainty and prepare the next discovery activity.
 
 ---
 
 # 3.15 Exit Criteria
 
-Preparation is complete when:
+Preparation has reached sufficient confidence to move forward when:
 
-- Objectives are understood
-- Scope is agreed
-- Stakeholders identified
-- Workshops scheduled
-- Existing documentation reviewed
-- Discovery questions prepared
-- Risks understood
-- Executive sponsor engaged
+- Objectives are understood sufficiently to guide investigation.
+- Scope is agreed or material scope uncertainties are visible.
+- Critical stakeholders are identified.
+- Appropriate discovery activities are planned.
+- Available documentation and evidence have been reviewed to an appropriate level.
+- Discovery questions are prepared.
+- Material risks and assumptions are visible.
+- Sponsorship and ownership are sufficient for the next step.
 
-Only then should the engagement move into the Investigate phase of the DISCOVER Framework.
+DISCOVER is iterative. The team may begin Investigate once no critical preparation gap prevents useful learning, while continuing to refine scope, stakeholders, questions and evidence as new information emerges.
 
 ---
 
@@ -377,4 +385,4 @@ Effective preparation creates the foundation for successful discovery.
 
 By understanding the business context, defining scope, identifying stakeholders and preparing structured workshops, the discovery team can maximise the value of stakeholder engagement while reducing unnecessary effort and rework.
 
-The next chapter introduces the POPIT-V Framework, which provides the primary lens through which every business domain is analysed.
+The next chapter introduces the POPIT-V Framework, which provides the primary analytical lens for considering the relevant People, Organisation, Process, Information, Technology and Value perspectives across a discovery engagement.

@@ -1,6 +1,6 @@
 ---
 title: "Chapter 6 - Discovery Techniques"
-version: "1.0"
+version: "1.1"
 author: "Steve Tarry"
 ---
 
@@ -320,31 +320,36 @@ Each technique reinforces the others.
 
 # 6.18 Deliverables
 
-Discovery techniques contribute to:
+Discovery techniques may contribute to an appropriate subset of artefacts, depending on the discovery objective and evidence gathered:
 
 - Stakeholder Register
 - Capability Map
 - Process Maps
-- Business Glossary
+- Decision Catalogue
+- Business Rules Catalogue
+- Business Glossary / Concept Catalogue
 - Enterprise Ontology
 - Data Catalogue
 - Technology Landscape
+- Evidence Register
+- Assumption & Open Question Log
+- Pain Point Register
 - Opportunity Register
-- Product Backlog
+- Golden Thread Traceability
+
+Detailed delivery backlogs are created by the chosen delivery method after sufficient discovery evidence exists; they are not a mandatory DISCOVER output.
 
 ---
 
 # 6.19 References
 
-> Placeholder references to be completed during bibliography development.
-
-- BABOK® Guide
-- BIZBOK® Guide
-- BPMN Specification
-- Domain-Driven Design
-- Event Storming (Alberto Brandolini)
-- Design Thinking
-- Lean Enterprise
+- International Institute of Business Analysis (IIBA) (2015) *A Guide to the Business Analysis Body of Knowledge (BABOK® Guide)*. Version 3. Toronto: IIBA.
+- Business Architecture Guild (n.d.) *A Guide to the Business Architecture Body of Knowledge® (BIZBOK® Guide)*. Version 15.0.
+- Object Management Group (OMG) (2014) *Business Process Model and Notation (BPMN)*. Version 2.0.2.
+- Evans, E. (2003) *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Boston, MA: Addison-Wesley.
+- Brandolini, A. (n.d.) *Introducing EventStorming: An Act of Deliberate Collective Learning*. Leanpub.
+- Design Council (n.d.) *The Double Diamond*.
+- Humble, J., Molesky, J. and O'Reilly, B. (2014) *Lean Enterprise: How High Performance Organizations Innovate at Scale*. Sebastopol, CA: O'Reilly Media.
 
 ---
 

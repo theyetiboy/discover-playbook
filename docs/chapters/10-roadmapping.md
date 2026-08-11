@@ -1,22 +1,35 @@
 ---
 title: "Chapter 10 - Roadmapping"
-version: "1.0"
+version: "1.1"
 author: "Steve Tarry"
 ---
 
 # Chapter 10 – Roadmapping
 
-> *"A roadmap communicates where we are going, why it matters and how we intend to get there."*
+> *"A roadmap communicates where we are going, why it matters and what must be true to move forward."*
 
 ---
 
 # 10.1 Introduction
 
-A roadmap transforms prioritised opportunities into a structured delivery plan.
+Roadmapping translates validated and prioritised discovery findings into **outcome-led strategic direction**.
 
-Rather than representing a fixed project schedule, a roadmap communicates strategic direction, sequencing and expected business outcomes.
+DISCOVER is not a delivery lifecycle.
 
-It enables stakeholders to understand what will be delivered, when delivery is expected and how individual initiatives contribute to organisational objectives.
+The Roadmap stage therefore does not attempt to create a detailed implementation schedule, sprint plan, release plan or fully estimated backlog.
+
+Instead, it communicates:
+
+- Which outcomes matter
+- Which opportunities should be pursued
+- Why they matter
+- What they depend upon
+- What evidence supports them
+- What uncertainty remains
+- How success should be measured
+- What should happen next
+
+Delivery approaches then determine how the work will be designed, estimated, built and released.
 
 ---
 
@@ -24,13 +37,14 @@ It enables stakeholders to understand what will be delivered, when delivery is e
 
 Roadmapping aims to:
 
-- Define delivery priorities
-- Sequence initiatives
-- Manage dependencies
-- Communicate strategic direction
-- Align stakeholders
-- Support investment planning
-- Track delivery progress
+- Translate prioritised opportunities into strategic direction
+- Connect proposed work to business outcomes
+- Sequence opportunities using dependencies and readiness
+- Make assumptions and unresolved questions visible
+- Clarify ownership and decision points
+- Support investment and portfolio conversations
+- Define how value should be measured
+- Create a clear hand-off into delivery
 
 ---
 
@@ -38,185 +52,293 @@ Roadmapping aims to:
 
 Typical inputs include:
 
-- Discovery outputs
+- Validated discovery findings
 - Opportunity Register
+- Benefits / Value Register
 - Prioritisation Matrix
+- Golden Thread Traceability
 - Business objectives
 - Strategic initiatives
-- Resource availability
 - Dependencies
 - Risks
+- Assumptions and open questions
+- Maturity findings where relevant
+- Organisational constraints and readiness
+
+Only validated findings, or findings whose uncertainty is explicitly labelled, should influence roadmap direction.
 
 ---
 
 # 10.4 Principles
 
-Effective roadmaps should be:
+Effective DISCOVER roadmaps should be:
 
-- Outcome focused
-- Business driven
-- Flexible
-- Easy to understand
-- Regularly reviewed
-- Supported by stakeholders
+- **Outcome focused** — describe what should improve, not merely what should be built
+- **Business driven** — connect to strategy, capabilities, decisions and value
+- **Evidence based** — show why an item is present
+- **Traceable** — connect opportunities to the Golden Thread where useful
+- **Flexible** — recognise that learning may change priorities
+- **Dependency aware** — make enabling work visible
+- **Confidence aware** — distinguish validated direction from hypotheses requiring more discovery
+- **Easy to understand** — communicate clearly to non-technical stakeholders
 
-Roadmaps should communicate direction rather than detailed project plans.
+A roadmap communicates direction rather than a detailed project plan.
 
 ---
 
 # 10.5 Roadmap Horizons
 
-Consider multiple planning horizons.
+Where precise dates are not justified, use broad horizons.
 
 ## Now
 
-Current initiatives.
+Work or discovery that should receive immediate attention.
+
+Typical reasons include:
+
+- strong evidence and value;
+- a critical dependency;
+- a significant risk;
+- a prerequisite for later opportunities;
+- an urgent business need.
 
 ---
 
 ## Next
 
-Upcoming priorities.
+Opportunities that are important but depend upon work, evidence or decisions in the Now horizon.
 
 ---
 
 ## Later
 
-Future opportunities.
+Potential future opportunities where:
 
-This approach supports continuous planning while recognising uncertainty.
+- value may be significant;
+- dependencies are substantial;
+- confidence is lower;
+- additional discovery is required;
+- organisational readiness is not yet sufficient.
+
+The horizons communicate sequence and confidence without inventing delivery dates.
 
 ---
 
-# 10.6 Sequencing
+# 10.6 Roadmap Item Structure
 
-Sequence initiatives according to:
+Each roadmap item should contain enough context to preserve the Golden Thread.
+
+| Field | Description |
+|---|---|
+| ID | Stable roadmap or opportunity identifier |
+| Business Outcome | What should improve |
+| Capability | Business capability affected |
+| Problem / Opportunity | What discovery identified |
+| Decision / Process | Business decision or process affected |
+| Information / Data Dependency | Information required |
+| Proposed Intervention | Candidate response, not a predetermined solution |
+| Expected Value | Why the item matters |
+| Evidence | Evidence supporting the item |
+| Confidence | Confidence in the current understanding |
+| Dependencies | What must happen first or alongside |
+| Validation Needed | Remaining questions or assumptions |
+| Success Measure | How value will be assessed |
+| Owner | Accountable business or product owner |
+| Horizon | Now / Next / Later |
+
+Where traceability IDs are in use, preserve them rather than recreating equivalent records.
+
+---
+
+# 10.7 Sequencing
+
+Sequence opportunities according to factors such as:
 
 - Business value
+- Strategic alignment
 - Dependencies
 - Risk
-- Data readiness
+- Evidence strength
+- Information / data readiness
 - Organisational readiness
-- Resource availability
+- Technical feasibility
+- Time to value
+- Capacity or investment constraints
 
-Some initiatives provide foundations for future delivery.
+Sequencing should not be based solely on technical convenience.
+
+Some opportunities may be valuable precisely because they create foundations for later outcomes.
 
 ---
 
-# 10.7 Managing Dependencies
+# 10.8 Managing Dependencies
 
 Document dependencies between:
 
 - Business capabilities
+- Processes
+- Decisions
+- Information and data
+- Governance
 - Data products
 - Technology
-- AI initiatives
+- AI capabilities
 - Teams
 - External suppliers
+- Regulatory or contractual constraints
 
-Dependencies should influence sequencing decisions.
+A dependency should be connected to the business outcome it enables wherever possible.
 
 ---
 
-# 10.8 Measuring Progress
+# 10.9 Confidence and Validation
 
-Monitor:
+Not every roadmap item will have the same level of certainty.
 
-- Milestone completion
+For each item ask:
+
+- What evidence supports this?
+- What is still assumed?
+- Which stakeholder must validate it?
+- Which Golden Thread links are missing?
+- What would materially change the priority?
+- Does additional discovery need to happen before delivery planning?
+
+Low confidence does not automatically mean low value.
+
+It means the uncertainty should be visible and managed.
+
+---
+
+# 10.10 Measuring Progress and Value
+
+DISCOVER roadmaps should focus on whether the intended business outcome is being achieved.
+
+Relevant measures may include:
+
+- Business KPI movement
 - Benefits realised
-- Product adoption
-- Business outcomes
-- Risks
-- Budget
-- Delivery confidence
+- Risk reduced
+- Decision quality or decision cycle time
+- User adoption
+- Manual effort removed
+- Information quality
+- Customer or employee outcomes
+- Revenue or cost outcomes
 
-Roadmaps should evolve as new information becomes available.
+Delivery milestones may be monitored by delivery teams, but milestone completion alone does not demonstrate business value.
 
 ---
 
-# 10.9 Communicating the Roadmap
+# 10.11 Communicating the Roadmap
 
-Different audiences require different views.
+Different audiences may require different views of the same underlying roadmap.
 
-Examples include:
+## Executive View
 
-Executive View
+Emphasise:
 
 - Strategic outcomes
+- Major opportunities
+- Expected value
 - Investment themes
-- Major milestones
+- Key risks and dependencies
+- Decisions required
 
-Operational View
+## Business / Product View
 
-- Delivery schedule
+Emphasise:
+
+- User and business outcomes
+- Decisions and processes affected
+- Evidence
+- Opportunity sequence
+- Success measures
+- Ownership
+- Validation still required
+
+## Delivery Handoff View
+
+Provide:
+
+- Validated context
+- Desired outcomes
+- Constraints
 - Dependencies
-- Resource planning
+- Information requirements
+- Governance requirements
+- Known risks
+- Open questions
 
-Product View
-
-- Releases
-- Features
-- Product evolution
+The delivery team can then create estimates, release plans, backlogs and implementation schedules using its chosen delivery approach.
 
 ---
 
-# 10.10 Governance
+# 10.12 Governance
 
 Roadmaps should identify:
 
 - Executive Sponsor
-- Product Owner
-- Delivery Owner
 - Business Owner
+- Product Owner where relevant
 - Review cadence
-- Decision points
+- Decision forums
+- Ownership of unresolved questions
+- Benefits / value ownership
+
+Roadmap governance should support learning rather than freeze assumptions.
 
 ---
 
-# 10.11 Reviewing the Roadmap
+# 10.13 Reviewing the Roadmap
 
-Roadmaps should be reviewed regularly.
+Review the roadmap when:
 
-Review:
+- New evidence emerges
+- A critical assumption is disproved
+- Business priorities change
+- Dependencies change
+- An opportunity is validated or rejected
+- Value assumptions change
+- Delivery learning changes feasibility
 
-- Progress
-- New opportunities
-- Changing priorities
-- Emerging risks
-- Lessons learned
+DISCOVER supports returning to earlier stages when necessary.
 
-Roadmaps should remain adaptable.
+The roadmap is therefore a living expression of current evidence and direction.
 
 ---
 
-# 10.12 Deliverables
+# 10.14 Deliverables
 
-Roadmapping should produce:
+Roadmapping should produce an appropriate subset of:
 
-- Product Roadmap
-- Initiative Roadmap
+- Outcome-led Roadmap
+- Golden Thread Traceability
 - Dependency Map
-- Release Plan
-- Benefits Timeline
+- Benefits / Value Measures
+- Ownership and Governance
+- Assumptions and Open Questions
+- Delivery Handoff
 - Executive Summary
 
+A detailed release plan is not a required DISCOVER artefact.
+
 ---
 
-# 10.13 References
+# 10.15 References
 
-> Placeholder references.
-
-- Agile Practice Guide
-- SAFe®
-- Inspired – Marty Cagan
-- Lean Product Playbook
+- International Institute of Business Analysis (IIBA) (2015) *A Guide to the Business Analysis Body of Knowledge (BABOK® Guide)*. Version 3. Toronto: IIBA.
+- Project Management Institute and Agile Alliance (2017) *Agile Practice Guide*. Newtown Square, PA: Project Management Institute.
+- Lombardo, C.T., McCarthy, B., Ryan, E. and Connors, M. (2017) *Product Roadmaps Relaunched: How to Set Direction While Embracing Uncertainty*. Sebastopol, CA: O'Reilly Media.
+- Cagan, M. (2017) *INSPIRED: How to Create Tech Products Customers Love*. 2nd edn. Hoboken, NJ: Wiley.
+- Olsen, D. (2015) *The Lean Product Playbook: How to Innovate with Minimum Viable Products and Rapid Customer Feedback*. Hoboken, NJ: Wiley.
 
 ---
 
 # Chapter Summary
 
-Roadmapping transforms prioritised opportunities into a structured delivery plan that aligns business objectives, investment decisions and product delivery.
+Roadmapping translates validated discovery into a clear, outcome-led direction.
 
-A successful roadmap provides direction while remaining flexible enough to respond to changing business priorities and new discoveries.
+A successful DISCOVER roadmap explains **what should happen next, why it matters, what it depends upon and how value will be measured**, while leaving detailed implementation planning to the organisation's delivery approach.
 
 The following chapters provide a detailed reference guide for each POPIT-V perspective, beginning with **People**.

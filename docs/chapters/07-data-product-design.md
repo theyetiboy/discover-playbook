@@ -1,6 +1,6 @@
 ---
 title: "Chapter 7 - Data Product Design"
-version: "1.0"
+version: "1.1"
 author: "Steve Tarry"
 ---
 
@@ -66,7 +66,11 @@ Successful data products are:
 
 # 7.4 Inputs
 
-Data Product Design should begin only after discovery has been completed.
+Formal Data Product Design should begin once **sufficient validated discovery evidence** exists to understand the business problem, intended users, decisions, information needs and expected value.
+
+Candidate data-product hypotheses may emerge earlier during discovery. They should be recorded as hypotheses and tested rather than treated as approved requirements.
+
+Discovery does not need to be "finished" in a waterfall sense before design thinking can begin. The evidence should simply be strong enough to avoid premature commitment to a solution.
 
 Typical inputs include:
 
@@ -308,30 +312,35 @@ Benefits should be monitored after implementation.
 
 # 7.15 Deliverables
 
-Data Product Design should produce:
+Data Product Design should produce enough definition to support validation and a responsible hand-off into delivery.
+
+Typical outputs include:
 
 - Product Vision
-- Product Canvas
-- User Personas
-- Product Backlog
+- Data Product Canvas
+- Target Users / Consumers
+- Decisions and Actions Supported
 - Success Measures
-- Feature Catalogue
-- Data Requirements
-- Governance Model
-- Product Roadmap
+- Candidate Feature Set
+- Information and Data Requirements
+- Quality and Freshness Expectations
+- Ownership and Governance Model
+- Evidence and Open Questions
+- Dependencies
+- Delivery Handoff
+
+A detailed Product Backlog, release plan and delivery schedule belong to the organisation's delivery process rather than to DISCOVER itself.
 
 ---
 
 # 7.16 References
 
-> Placeholder references to be completed during bibliography development.
-
-- Data Mesh – Zhamak Dehghani
-- Inspired – Marty Cagan
-- Empowered – Marty Cagan
-- Lean Product Playbook – Dan Olsen
-- Domain-Driven Design – Eric Evans
-- DAMA-DMBOK
+- Cagan, M. (2017) *INSPIRED: How to Create Tech Products Customers Love*. 2nd edn. Hoboken, NJ: Wiley.
+- Dehghani, Z. (2022) *Data Mesh: Delivering Data-Driven Value at Scale*. Sebastopol, CA: O'Reilly Media.
+- Evans, E. (2003) *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Boston, MA: Addison-Wesley.
+- International Institute of Business Analysis (IIBA) (2015) *A Guide to the Business Analysis Body of Knowledge (BABOK® Guide)*. Version 3. Toronto: IIBA.
+- Olsen, D. (2015) *The Lean Product Playbook: How to Innovate with Minimum Viable Products and Rapid Customer Feedback*. Hoboken, NJ: Wiley.
+- DAMA International (2017) *DAMA-DMBOK: Data Management Body of Knowledge*. 2nd edn. Basking Ridge, NJ: Technics Publications.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Chapter 4 - The POPIT-V Framework"
-version: "1.0"
+version: "1.1"
 author: "Steve Tarry"
 ---
 
@@ -219,19 +219,22 @@ Value provides the reason every initiative exists.
 
 Discovery considers:
 
-- Benefits
-- Cost reduction
+- Desired business outcomes
+- Measures of success
 - Revenue growth
-- Customer experience
-- Risk reduction
-- AI opportunities
-- Quick wins
+- Cost reduction
+- Efficiency and productivity
+- Customer or user experience
+- Risk reduction and compliance
+- Strategic contribution
+- Opportunity cost
 
-Outputs include:
+Outputs may include:
 
-- Benefits Register
-- Opportunity Backlog
-- Prioritised Roadmap
+- KPI Catalogue
+- Benefits / Value Register
+- Opportunity Register
+- Benefits Realisation Measures
 
 ---
 
@@ -272,17 +275,28 @@ The framework should remain flexible while ensuring no important perspective is 
 
 # 4.13 Deliverables
 
-Applying the POPIT-V Framework should result in:
+POPIT-V informs the selection of discovery artefacts rather than prescribing a fixed document set.
+
+Depending on the objective, useful outputs may include:
 
 - Stakeholder Register
 - Capability Map
 - Process Maps
+- Decision Catalogue
+- Business Rules Catalogue
 - Business Glossary
-- Enterprise Ontology
+- Information / Concept Catalogue
 - Data Catalogue
 - Technology Landscape
+- Evidence Register
+- Pain Point Register
 - Opportunity Register
-- Prioritised Roadmap
+- Benefits / Value Register
+- Golden Thread Traceability Matrix
+- Maturity Profile
+- Outcome-led Roadmap
+
+Create only the artefacts that help answer the discovery objective.
 
 ---
 

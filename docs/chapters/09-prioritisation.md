@@ -1,6 +1,6 @@
 ---
 title: "Chapter 9 - Prioritisation"
-version: "1.0"
+version: "1.1"
 author: "Steve Tarry"
 ---
 
@@ -32,7 +32,7 @@ Prioritisation aims to:
 - Consider dependencies
 - Assess delivery risk
 - Support investment decisions
-- Create an achievable delivery sequence
+- Create an achievable outcome-led sequence
 
 ---
 
@@ -170,6 +170,10 @@ An example scoring model is shown below.
 
 The weighting applied to each criterion should reflect organisational priorities.
 
+Scoring is a **decision aid**, not objective truth.
+
+Avoid fabricated precision. Where evidence is limited, use qualitative categories, record confidence and make assumptions explicit.
+
 ---
 
 # 9.12 Prioritisation Matrix
@@ -215,12 +219,10 @@ Prioritisation should produce:
 
 # 9.15 References
 
-> Placeholder references.
-
-- BABOK® Guide
-- Agile Practice Guide
-- Lean Product Playbook
-- Inspired – Marty Cagan
+- International Institute of Business Analysis (IIBA) (2015) *A Guide to the Business Analysis Body of Knowledge (BABOK® Guide)*. Version 3. Toronto: IIBA.
+- Project Management Institute and Agile Alliance (2017) *Agile Practice Guide*. Newtown Square, PA: Project Management Institute.
+- Olsen, D. (2015) *The Lean Product Playbook: How to Innovate with Minimum Viable Products and Rapid Customer Feedback*. Hoboken, NJ: Wiley.
+- Cagan, M. (2017) *INSPIRED: How to Create Tech Products Customers Love*. 2nd edn. Hoboken, NJ: Wiley.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Chapter 8 - AI Opportunity Discovery"
-version: "1.0"
+version: "1.1"
 author: "Steve Tarry"
 ---
 
@@ -338,7 +338,7 @@ Examples include:
 
 # 8.12 Deliverables
 
-AI Opportunity Discovery should produce:
+AI Opportunity Discovery may produce an appropriate subset of the following artefacts, depending on the maturity of the evidence and the decision being supported:
 
 - AI Opportunity Register
 - AI Opportunity Canvas
@@ -346,18 +346,20 @@ AI Opportunity Discovery should produce:
 - AI Risk Assessment
 - Data Readiness Assessment
 - Business Value Assessment
+- Assumption & Open Question Log
+- Validation Plan
+
+These artefacts should test whether AI is an appropriate intervention. They should also record simpler non-AI alternatives where those could achieve the desired outcome with less complexity or risk.
 
 ---
 
 # 8.13 References
 
-> Placeholder references to be completed during bibliography development.
-
-- ISO/IEC 42001 Artificial Intelligence Management Systems
-- NIST AI Risk Management Framework
-- DAMA-DMBOK
-- Data Mesh – Zhamak Dehghani
-- Domain-Driven Design – Eric Evans
+- International Organization for Standardization (ISO) and International Electrotechnical Commission (IEC) (2023) *ISO/IEC 42001:2023 — Information technology — Artificial intelligence — Management system*.
+- National Institute of Standards and Technology (NIST) (2023) *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*. NIST AI 100-1.
+- DAMA International (2017) *DAMA-DMBOK: Data Management Body of Knowledge*. 2nd ed. Technics Publications.
+- Dehghani, Z. (2022) *Data Mesh: Delivering Data-Driven Value at Scale*. Sebastopol, CA: O'Reilly Media.
+- Evans, E. (2003) *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Boston, MA: Addison-Wesley.
 
 ---
 
@@ -367,4 +369,4 @@ Artificial Intelligence should be viewed as an enabler of business outcomes rath
 
 Successful AI initiatives begin with clearly defined business problems, trusted data and measurable outcomes. By systematically identifying, evaluating and prioritising AI opportunities, organisations can focus investment where Artificial Intelligence provides genuine and sustainable business value.
 
-The next chapter introduces Prioritisation, providing a structured approach for evaluating discovery findings and determining which opportunities should be delivered first.
+The next chapter introduces Prioritisation, providing a structured approach for evaluating discovery findings and determining which opportunities should be pursued first.
