@@ -1,6 +1,6 @@
 ---
 title: "Example Prompt Template"
-version: "1.0"
+version: "1.1"
 ---
 
 # How to Use This File
@@ -105,7 +105,11 @@ Replace bracketed values with the context of the current discovery.
 > - candidate opportunities;
 > - validation questions.
 >
-> Do not fill gaps with general knowledge.
+> Where canonical artefact templates are supplied, use them.
+>
+> Reuse existing traceability IDs. Create new IDs only for genuinely new records.
+>
+> Do not fill gaps with general knowledge. Mark unsupported fields as **UNKNOWN**.
 
 ---
 
@@ -163,7 +167,11 @@ Replace bracketed values with the context of the current discovery.
 > → Insight/Action
 > → Value
 >
+> Reuse existing traceability IDs where they exist.
+>
 > Show missing links as **UNKNOWN** rather than inventing them.
+>
+> Mark conflicted relationships explicitly.
 >
 > Finish with the five most valuable questions to close the gaps.
 
@@ -244,9 +252,13 @@ Replace bracketed values with the context of the current discovery.
 > → value
 > → success measure.
 >
-> Flag dependencies and unvalidated assumptions.
+> Preserve existing traceability IDs.
 >
-> Do not invent delivery dates or effort estimates.
+> Include evidence, confidence, dependencies and validation still required.
+>
+> Treat this as strategic direction for delivery, not a release plan.
+>
+> Do not invent delivery dates, milestones or effort estimates.
 
 ---
 
@@ -274,3 +286,73 @@ Replace bracketed values with the context of the current discovery.
 > - recommended next discovery actions.
 >
 > Keep technology recommendations out unless the evidence supports them.
+
+---
+
+# 15. Update Canonical Artefacts
+
+> Using the latest supplied evidence, update the canonical DISCOVER artefacts.
+>
+> Use the supplied templates exactly where they exist.
+>
+> Rules:
+> - preserve existing IDs;
+> - create a new ID only for a genuinely new item;
+> - retain source/evidence references;
+> - mark unsupported fields **UNKNOWN**;
+> - do not overwrite conflicting definitions or rules;
+> - record contradictions and create validation questions;
+> - distinguish stakeholder statements from validated evidence.
+>
+> At the end, list:
+> 1. records created;
+> 2. records updated;
+> 3. records now conflicted;
+> 4. records requiring validation.
+
+---
+
+# 16. Find Broken Threads
+
+> Review the current Golden Thread and canonical artefacts.
+>
+> Identify the most important **Broken Thread** points where traceability cannot yet be established.
+>
+> Look for missing or weak links between:
+> - strategy and capability;
+> - capability and process;
+> - process and decision;
+> - decision and information;
+> - information and business rules;
+> - information and data;
+> - data/product and action;
+> - action and measurable value.
+>
+> For each gap show:
+> - relevant IDs;
+> - what is known;
+> - what is missing;
+> - why the gap matters;
+> - the best question or evidence needed to close it.
+>
+> Do not invent the missing relationship.
+
+---
+
+# 17. Check Artefact Consistency
+
+> Compare the current Decision Catalogue, Business Rules Catalogue, Information/Glossary material, Opportunity Register and Golden Thread.
+>
+> Find:
+> - duplicate records;
+> - conflicting definitions;
+> - orphaned IDs;
+> - opportunities with no evidenced business problem;
+> - data products with no decision or action;
+> - value claims with no success measure;
+> - decisions with no information requirement;
+> - information with no known consumer;
+> - records with weak or missing evidence.
+>
+> Recommend corrections, but do not silently modify or merge records unless the evidence supports it.
+

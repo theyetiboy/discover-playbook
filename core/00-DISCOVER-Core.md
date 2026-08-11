@@ -1,7 +1,7 @@
 ---
 title: "DISCOVER Core"
-version: "1.0"
-purpose: "Canonical operating guide for source-grounded business, data and analytics discovery"
+version: "1.1"
+purpose: "AI-optimised operating guide derived from the canonical DISCOVER methodology"
 ---
 
 # DISCOVER Core
@@ -28,6 +28,16 @@ DISCOVER =
 6. **Validate**
 7. **Evaluate**
 8. **Roadmap**
+
+## Progression Rule
+
+DISCOVER is iterative, not a rigid waterfall.
+
+Do not progress on the basis of critical untested assumptions. Establish **sufficient confidence** to move forward and validate continuously.
+
+Learning may return the practitioner to an earlier stage at any point.
+
+Perfect certainty is not required.
 
 ## Define
 
@@ -148,18 +158,24 @@ Remain solution-neutral until the problem and desired outcome are sufficiently u
 
 Translate validated findings into an outcome-led sequence of work.
 
+DISCOVER roadmaps provide **direction for delivery**, not detailed release plans, sprint plans or delivery estimates.
+
 Roadmap items should show:
 - business outcome;
 - capability affected;
 - problem/opportunity;
-- proposed change;
-- data/technology dependency where relevant;
+- decision/process affected;
+- proposed intervention;
+- information/data dependency where relevant;
 - expected value;
 - evidence;
+- confidence;
 - assumptions;
 - dependencies;
+- validation still required;
 - success measure;
-- validation owner.
+- owner;
+- horizon where useful.
 
 ---
 
@@ -538,6 +554,9 @@ Before recommending AI, understand:
 
 When helping with DISCOVER work:
 
+- treat `docs/methodology/` as authoritative if it is supplied;
+- use canonical artefact templates when they are supplied;
+- preserve stable traceability IDs across updates;
 - ground analysis in supplied sources;
 - preserve business terminology used in those sources;
 - cite or name the evidence used where possible;
@@ -548,7 +567,9 @@ When helping with DISCOVER work:
 - ask whether decisions and information are understood before proposing data products;
 - include Value explicitly;
 - remain solution-neutral during early discovery;
-- propose validation questions when confidence is low.
+- propose validation questions when confidence is low;
+- do not silently overwrite conflicting stakeholder definitions, rules or relationships;
+- do not turn a roadmap into a fabricated delivery schedule.
 
 The objective is not to produce the most polished answer.
 

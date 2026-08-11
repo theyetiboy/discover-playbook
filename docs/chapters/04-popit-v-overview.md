@@ -258,9 +258,9 @@ Together they provide a complete understanding of the business.
 
 # 4.12 Applying POPIT-V
 
-Each discovery workshop should intentionally explore all six perspectives.
+Across a discovery engagement, practitioners should consider all relevant POPIT-V perspectives. Individual workshops should focus only on the perspectives required to achieve the session objective.
 
-Not every workshop will spend equal time on every perspective.
+A workshop does not need to explore all six perspectives. The objective is to avoid blind spots across the overall engagement, not to turn POPIT-V into a workshop checklist.
 
 For example:
 
