@@ -378,6 +378,8 @@ When asked to generate or update an artefact:
 
 # Golden Thread Update Standard
 
+A **Broken Thread** is a missing, unknown or unsupported relationship in the Golden Thread that materially limits confidence, traceability or value assessment. Do not hide a Broken Thread by inventing a relationship.
+
 When asked to update the Golden Thread:
 
 1. reuse existing IDs;

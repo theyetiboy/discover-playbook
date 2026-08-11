@@ -228,6 +228,6 @@ Prioritisation should produce:
 
 # Chapter Summary
 
-Prioritisation ensures that discovery findings are translated into an achievable and valuable delivery plan.
+Prioritisation ensures that discovery findings are translated into a defensible set of outcome-led priorities, with value, evidence, uncertainty and dependencies made visible.
 
-The next chapter explains how prioritised opportunities are organised into a practical roadmap.
+The next chapter explains how those priorities are organised into an outcome-led roadmap that informs — but does not replace — delivery planning.

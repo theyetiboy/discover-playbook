@@ -1,50 +1,214 @@
 # DISCOVER™ Data Product Discovery Playbook
 
-> A practical methodology for discovering business domains, creating shared understanding and translating evidence into valuable data, analytics and AI opportunities.
+> A practical methodology for understanding business domains, creating shared understanding and translating evidence into valuable data, analytics and AI outcomes.
+
+DISCOVER is designed for practitioners working at the intersection of business analysis, product management, data, analytics, architecture and AI.
+
+It is deliberately:
+
+- **business-led** — understand the outcome and capability before choosing technology;
+- **decision-led** — decisions drive information and data requirements;
+- **evidence-based** — distinguish what is known from what is assumed;
+- **semantic** — model business meaning, not only systems and schemas;
+- **traceable** — connect discovery through the Golden Thread;
+- **iterative** — validate continuously rather than operate as a waterfall;
+- **value-focused** — every recommendation must ultimately answer **“So what?”**
 
 ---
 
-## Vision
+# DISCOVER Lifecycle
 
-DISCOVER is an open methodology for understanding business capabilities before designing technology.
+**DISCOVER** =
 
-It combines techniques from:
+1. **D — Define**
+2. **I — Investigate**
+3. **S — Study**
+4. **C — Capture**
+5. **O — Organise**
+6. **V — Validate**
+7. **E — Evaluate**
+8. **R — Roadmap**
 
-- Product Discovery
-- Business Analysis
-- Enterprise Architecture
-- Domain-Driven Design
-- Capability Mapping
-- Process Modelling
-- Data Product Thinking
-- AI Opportunity Discovery
+The lifecycle provides structure without becoming a stage-gate process.
 
-into a single repeatable framework.
-
-DISCOVER is deliberately business-led, evidence-based, traceable and value-focused.
+> Do not progress on the basis of critical untested assumptions. Establish sufficient confidence to move forward, validate continuously and return to earlier stages whenever learning requires it.
 
 ---
 
-## Framework
+# POPIT-V Analytical Lens
 
-DISCOVER consists of eight stages:
+DISCOVER examines the business through six complementary perspectives:
 
-- **D**efine
-- **I**nvestigate
-- **S**tudy
-- **C**apture
-- **O**rganise
-- **V**alidate
-- **E**valuate
-- **R**oadmap
+- **People**
+- **Organisation**
+- **Process**
+- **Information**
+- **Technology**
+- **Value**
 
-The stages provide structure, but DISCOVER is iterative rather than a rigid waterfall. Learning can return the practitioner to an earlier stage whenever assumptions, definitions or relationships need to be revisited.
+Across an engagement, consider all relevant perspectives.
+
+An individual interview or workshop **does not need to explore all six**. Select only the perspectives necessary to achieve the session objective.
 
 ---
 
-## Analytical Lens
+# The Golden Thread
 
-DISCOVER uses **POPIT-V** to examine a business domain from six complementary perspectives:
+DISCOVER connects business intent to measurable value:
+
+```text
+Business Strategy
+        ↓
+Business Capability
+        ↓
+Business Process
+        ↓
+Business Decision
+        ↓
+Business Information
+        ↓
+Business Rules
+        ↓
+Technology / Data
+        ↓
+Data Products / Analytics
+        ↓
+Insight / Action
+        ↓
+Business Value
+```
+
+The Golden Thread is a **traceability model**, not a delivery lifecycle.
+
+A missing or unsupported relationship is a **Broken Thread**. DISCOVER makes Broken Threads visible rather than filling them with assumptions.
+
+---
+
+# Core Principles
+
+1. **Business Before Technology**
+2. **Start With Outcomes**
+3. **Decisions Drive Data**
+4. **Model the Business, Not the Systems**
+5. **Understand People in Context**
+6. **Evidence Over Assumption**
+7. **Create Shared Understanding**
+8. **Capture Knowledge Once, Reuse It**
+9. **Connect Everything**
+10. **Explore Before You Converge**
+11. **Remain Solution Neutral**
+12. **Validate Continuously**
+13. **Design Governance In**
+14. **Every Recommendation Must Deliver Value**
+
+See [`docs/methodology/discover-principles.md`](docs/methodology/discover-principles.md).
+
+---
+
+# Evidence Model
+
+Important findings should be distinguishable as:
+
+- **Evidence**
+- **Stakeholder Statement**
+- **Assumption**
+- **Interpretation**
+- **Recommendation**
+- **Open Question**
+
+Where a material fact is unknown, DISCOVER explicitly permits:
+
+```text
+UNKNOWN
+```
+
+Where evidence conflicts, preserve the conflict and create a validation question.
+
+---
+
+# Repository Architecture
+
+The repository has three complementary representations of the methodology.
+
+## 1. Canonical Methodology — `docs/methodology/`
+
+This is the authoritative definition of DISCOVER.
+
+It contains:
+
+- the full DISCOVER framework;
+- DISCOVER principles;
+- POPIT-V;
+- the Golden Thread;
+- maturity model;
+- change-control guidance.
+
+**If another file conflicts with `docs/methodology/`, the methodology directory is authoritative.**
+
+Start with:
+
+[`docs/methodology/README.md`](docs/methodology/README.md)
+
+## 2. Practitioner Playbook — `docs/`
+
+Human-readable practitioner material:
+
+```text
+docs/
+├── methodology/        # canonical methodology
+├── chapters/           # practitioner chapters
+│   ├── popit-v/
+│   ├── discovery-techniques/
+│   └── references/
+├── assets/templates/   # reusable canonical artefacts
+├── examples/           # worked examples
+└── appendices/         # questions, agendas, checklists, glossary, reading
+```
+
+Start with:
+
+[`docs/README.md`](docs/README.md)
+
+## 3. AI-Assisted Toolkit — `core/` and `prompts/`
+
+AI-optimised material for source-grounded assistants such as Google NotebookLM.
+
+```text
+core/
+├── 00-DISCOVER-Core.md
+├── 01-Notebook-Operating-Instructions.md
+└── 02-Example-Prompt-Template.md
+
+prompts/
+├── Example-Prompt-Finance.md
+├── Example-Prompt-Rights.md
+├── Example-Prompt-Global-Sales.md
+├── Example-Prompt-Content.md
+└── Example-Prompt-Marketing.md
+```
+
+The AI toolkit helps prepare workshops, structure evidence and maintain artefacts.
+
+It is **not the source of business truth**.
+
+---
+
+# Practitioner Chapters
+
+The main playbook covers:
+
+1. Introduction
+2. DISCOVER Lifecycle
+3. Engagement Preparation
+4. POPIT-V Overview
+5. Workshop Playbook
+6. Discovery Techniques
+7. Data Product Design
+8. AI Opportunity Discovery
+9. Prioritisation
+10. Roadmapping
+
+The enriched POPIT-V field guides cover:
 
 - People
 - Organisation
@@ -53,161 +217,242 @@ DISCOVER uses **POPIT-V** to examine a business domain from six complementary pe
 - Technology
 - Value
 
-Across an engagement, consider all relevant perspectives. Individual workshops should focus only on the perspectives required to achieve their objective.
+The discovery technique library covers:
+
+- Business Capability Mapping
+- Stakeholder Mapping
+- Process Modelling
+- Value Stream Mapping
+- EventStorming
+- Business Glossary
+- Domain-Driven Design
+- Wardley Mapping
+- Ontology Discovery
 
 ---
 
-## Golden Thread
+# Canonical Artefact Library
 
-DISCOVER preserves traceability from business intent to measurable value:
+Use the **smallest set of artefacts that answers the discovery objective**.
 
-**Business Strategy**
-→ **Business Capability**
-→ **Business Process**
-→ **Business Decision**
-→ **Business Information**
-→ **Business Rules**
-→ **Technology / Data**
-→ **Data Products / Analytics**
-→ **Insight / Action**
-→ **Business Value**
+The template library includes:
 
-The Golden Thread is a traceability model, not a delivery lifecycle.
-
----
-
-## Core Principles
-
-**Business Before Technology**
-
-**Start With Outcomes**
-
-**Decisions Drive Data**
-
-**Evidence Over Assumption**
-
-**Validate Continuously**
-
-**Value Always**
-
----
-
-## Repository Architecture
-
-The repository is deliberately organised into three representations of the methodology.
-
-### Canonical Methodology — `docs/methodology/`
-
-This is the authoritative definition of DISCOVER.
-
-It contains the canonical descriptions of:
-
-- the DISCOVER lifecycle;
-- DISCOVER principles;
-- POPIT-V;
-- the Golden Thread;
-- the maturity model.
-
-If another file conflicts with the methodology, **`docs/methodology/` is the source of truth**.
-
-See [`docs/methodology/README.md`](docs/methodology/README.md).
-
-### Practitioner Playbook — `docs/chapters/` and `docs/assets/templates/`
-
-These files explain how practitioners apply DISCOVER.
-
-The chapters are human-readable guidance derived from the canonical methodology.
-
-The template library provides reusable artefacts for workshops, evidence capture, traceability, opportunity evaluation and data product discovery.
-
-### AI-Assisted Toolkit — `core/` and `prompts/`
-
-These files are AI-optimised derivatives of the methodology for source-grounded assistants such as Google NotebookLM.
-
-They define:
-
-- how the AI should behave;
-- how evidence should be classified;
-- how workshops should be generated;
-- how canonical artefacts should be updated;
-- how domain prompt packs can be used.
-
-The AI toolkit does **not** replace the canonical methodology and should not be treated as a source of business truth.
-
----
-
-## Canonical Artefacts
-
-DISCOVER uses only the artefacts needed to answer the discovery objective.
-
-The template library includes, amongst others:
+### Engagement & Facilitation
 
 - Discovery Brief
 - Stakeholder Register
-- Business Capability Map
+- Workshop Agenda
+- RACI / Responsibility Matrix
+
+### Business Understanding
+
+- Capability Map
 - Decision Catalogue
 - Business Rules Catalogue
-- Evidence Register
-- Assumption & Open Question Log
-- Pain Point Register
-- Opportunity Register
-- Benefits / Value Register
 - Business Glossary
 - KPI Catalogue
+- Ontology Capture
+
+### Evidence & Discovery Control
+
+- Evidence Register
+- Assumption / Open Question Log
+- Pain Point Register
+
+### Information, Technology & Product
+
 - Data Catalogue
-- Golden Thread Traceability Matrix
 - Data Product Canvas
 - AI Opportunity Canvas
-- Maturity Assessment
-- Workshop Agenda
 
-Artefacts should be linked where useful through the Golden Thread rather than maintained as isolated documents.
+### Opportunity & Value
+
+- Opportunity Register
+- Benefits / Value Register
+- Maturity Assessment
+
+### Traceability & Communication
+
+- Golden Thread Traceability
+- Executive Summary
+- Executive Discovery Dashboard
+
+See:
+
+[`docs/assets/templates/README.md`](docs/assets/templates/README.md)
 
 ---
 
-## Traceability
+# Traceability IDs
 
-Larger engagements may use stable identifiers to connect artefacts, for example:
+For persistent or complex discovery, stable identifiers may be used.
+
+| Prefix | Meaning |
+|---|---|
+| `STR-` | Strategic Objective |
+| `CAP-` | Business Capability |
+| `PRC-` | Business Process |
+| `DEC-` | Business Decision |
+| `INF-` | Business Information |
+| `BR-` | Business Rule |
+| `SYS-` | System / Technology |
+| `DAT-` | Data Asset |
+| `DP-` | Data Product |
+| `ACT-` | Business Action |
+| `VAL-` | Business Value |
+
+Supporting records:
+
+| Prefix | Meaning |
+|---|---|
+| `EVD-` | Evidence |
+| `ASM-` | Assumption |
+| `OQ-` | Open Question |
+| `PAIN-` | Pain Point |
+| `OPP-` | Opportunity |
+| `RSK-` | Risk |
+
+Do not force IDs into lightweight discovery where they create more administration than value.
+
+---
+
+# Maturity Model
+
+DISCOVER assesses maturity **separately across each POPIT-V dimension**:
+
+1. **Fragmented**
+2. **Developing**
+3. **Defined**
+4. **Managed**
+5. **Adaptive**
+
+Prefer a maturity profile rather than a single averaged score.
+
+See:
+
+[`docs/methodology/maturity-model.md`](docs/methodology/maturity-model.md)
+
+---
+
+# NotebookLM / Source-Grounded AI Pattern
+
+A practical pattern:
+
+## Master Toolkit Notebook
+
+Load:
+
+1. `core/00-DISCOVER-Core.md`
+2. `core/01-Notebook-Operating-Instructions.md`
+3. relevant templates
+4. relevant domain prompt packs
+5. selected methodology/practitioner sources
+
+Use it to understand and apply DISCOVER.
+
+## Domain / Initiative Notebook
+
+For a Finance, Rights, Global Sales, Content or other discovery:
+
+1. load the compact DISCOVER core/instructions;
+2. load the relevant prompt pack and templates;
+3. add trusted business documents;
+4. add workshop/interview evidence;
+5. ask the notebook to structure findings;
+6. validate with stakeholders;
+7. maintain stable IDs and Broken Threads.
+
+The notebook must distinguish **source evidence from inference**.
+
+See:
+
+[`core/README.md`](core/README.md)  
+[`prompts/README.md`](prompts/README.md)
+
+---
+
+# Worked Example
+
+The fictional Finance simulation demonstrates:
 
 ```text
-STR-001  Strategic Objective
-CAP-001  Business Capability
-PRC-001  Business Process
-DEC-001  Business Decision
-INF-001  Information Requirement
-BR-001   Business Rule
-SYS-001  System / Technology
-DAT-001  Data Asset
-DP-001   Data Product
-ACT-001  Business Action
-VAL-001  Business Value
+Discovery Brief
+      ↓
+Workshop Plan
+      ↓
+Mock Workshop Notes
+      ↓
+POPIT-V / Artefact Analysis
+      ↓
+Golden Thread
+      ↓
+Outcome-Led Roadmap
 ```
 
-Supporting discovery records can use identifiers such as `EVD-`, `ASM-`, `OQ-`, `PAIN-` and `OPP-`.
+It deliberately begins with unvalidated assumptions such as:
 
-Use this level of formality only where the size or complexity of the engagement justifies it.
+- “We need a dashboard.”
+- “AI might improve forecasting.”
+- “Poor data quality is probably the problem.”
 
----
+DISCOVER tests rather than accepts those statements.
 
-## Notebook Toolkit
+See:
 
-A recommended NotebookLM pattern is:
-
-1. Load the compact DISCOVER core and operating instructions.
-2. Add the relevant domain prompt pack.
-3. Add only the canonical artefact templates needed for the engagement.
-4. Add trusted business documents and workshop evidence.
-5. Use the notebook to prepare discovery, structure findings and identify gaps.
-6. Validate findings with stakeholders.
-7. Preserve stable IDs when updating artefacts.
-8. Trace recommendations to evidence and measurable value.
-
-See [`core/README.md`](core/README.md).
+[`docs/examples/finance-simulation/README.md`](docs/examples/finance-simulation/README.md)
 
 ---
 
-## Status
+# References
 
-🚧 **Version 0.2 — Consolidation**
+DISCOVER is informed by established work including:
 
-The methodology is actively evolving. The current focus is consistency between the canonical methodology, practitioner playbook, artefact library and AI-assisted toolkit.
+- IIBA BABOK® Guide;
+- Business Architecture Guild BIZBOK® Guide;
+- DAMA-DMBOK®;
+- TOGAF®;
+- BPMN / DMN;
+- Domain-Driven Design;
+- EventStorming;
+- Lean / Value Stream Mapping;
+- W3C semantic-web standards;
+- ISO AI / information-security standards;
+- NIST AI Risk Management Framework;
+- product discovery and strategy literature.
+
+The repository distinguishes external method/reference material from organisation-specific discovery evidence.
+
+See:
+
+[`docs/chapters/references/`](docs/chapters/references/)  
+[`docs/appendices/appendix_F_reading_list.md`](docs/appendices/appendix_F_reading_list.md)
+
+---
+
+# Baseline Status
+
+**Baseline Candidate v1.0 — 11 August 2026**
+
+This candidate consolidates:
+
+- the enriched DISCOVER methodology and practitioner playbook;
+- POPIT-V field guides;
+- enriched discovery-technique chapters;
+- canonical artefact templates;
+- evidence and traceability model;
+- Golden Thread / Broken Threads;
+- outcome-led roadmapping;
+- data product and AI discovery;
+- NotebookLM operating instructions and prompt packs;
+- Finance worked simulation;
+- refreshed reference library.
+
+See [`BASELINE.md`](BASELINE.md).
+
+---
+
+# Licensing
+
+See [`LICENSE.md`](LICENSE.md).
+
+Names and trademarks belonging to third parties remain the property of their respective owners.
