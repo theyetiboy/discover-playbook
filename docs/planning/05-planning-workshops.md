@@ -400,6 +400,107 @@ Do not write a clean narrative that hides disagreement.
 
 ---
 
+## Semantic Capture During Workshops
+
+Ontology discovery should not normally become the primary purpose of an early business workshop unless semantic modelling is the explicit discovery objective.
+
+Instead, practise **Semantic Listening** while the main POPIT-V discussion takes place.
+
+Semantic Listening means noticing and capturing clues about business meaning as stakeholders describe their work.
+
+Listen for:
+
+- important business concepts;
+- relationships between concepts;
+- definitions;
+- synonyms and conflicting terminology;
+- classifications and types;
+- identifiers;
+- ownership;
+- business rules;
+- events;
+- states and status changes;
+- constraints;
+- exceptions;
+- hierarchy;
+- context-dependent meaning.
+
+The facilitator does not need to stop the workshop to model these formally.
+
+Use a lightweight semantic scratchpad alongside the primary workshop notes.
+
+### Suggested shorthand
+
+```text
+[C]     Concept
+[R]     Relationship
+[ATTR]  Attribute
+[RULE]  Business rule
+[EVT]   Business event
+[STATE] State / status
+[SYN]   Synonym or terminology conflict
+[ID]    Identifier
+[OWN]   Semantic ownership
+[OQ]    Open semantic question
+```
+
+Example:
+
+```text
+[C] Forecast
+[C] Production
+[C] Label
+[C] Territory
+
+[R] Label submits Forecast
+[R] Forecast relates to Production
+[R] Forecast consolidated by Territory
+
+[STATE] Forecast: Submitted → Reviewed → Approved
+
+[OWN] Forecast definition — FP&A?
+[OQ] Is "Latest Forecast" a separate business concept or the current approved version?
+```
+
+The aim is to capture **ontology candidates**, not to produce a finished ontology during the workshop.
+
+After the session, review the semantic scratchpad and organise useful clues into:
+
+- Candidate Concepts;
+- Candidate Relationships;
+- Candidate Definitions;
+- Candidate Business Rules;
+- Candidate Events;
+- Candidate States;
+- Semantic Conflicts;
+- Open Semantic Questions.
+
+These candidates can then be validated and progressively promoted into the Business Glossary, Ontology Capture, Business Rules Catalogue or other canonical artefacts.
+
+### Semantic trigger phrases
+
+Certain stakeholder phrases should prompt deeper listening.
+
+| Phrase | Possible semantic clue |
+|---|---|
+| "There are three types of..." | Classification / hierarchy |
+| "We call it X, but they call it Y..." | Synonym or semantic conflict |
+| "It depends..." | Rule or context boundary |
+| "Once X happens..." | Event or state transition |
+| "You can't have X unless..." | Constraint |
+| "A contract can contain..." | Relationship / cardinality |
+| "The system calls it..." | Difference between business meaning and system representation |
+| "Technically yes, but normally..." | Exception or hidden rule |
+
+Do not force these clues into a formal model during the conversation.
+
+Capture them, mark uncertainty explicitly, and validate them later.
+
+> **Early discovery captures semantic clues. Formal ontology modelling follows when there is sufficient evidence and a clear reason to model.**
+
+
+---
+
 # 15. Ending the Workshop
 
 Always ask:

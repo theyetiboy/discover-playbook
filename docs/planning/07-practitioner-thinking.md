@@ -509,7 +509,344 @@ This is stronger than a plausible invented answer.
 
 ---
 
-# 27. Practitioner Self-Check
+# 27. Practise Semantic Listening
+
+Ontology thinking should be present throughout discovery even when ontology creation is not the objective.
+
+A DISCOVER practitioner listens not only for what stakeholders say about their work, but also for clues about the underlying business meaning.
+
+This practice is called **Semantic Listening**.
+
+> **Semantic Listening is the practice of identifying business concepts, relationships, rules, states, events and terminology while conducting normal discovery activities. It allows ontology knowledge to emerge progressively without turning every discovery activity into an ontology workshop.**
+
+Semantic Listening is an **always-on background lens**.
+
+POPIT-V remains the visible structure of the discovery.
+
+Semantic Listening operates underneath it.
+
+```text
+Visible Discovery
+────────────────────────────
+People
+Organisation
+Process
+Information
+Technology
+Value
+
+        ↓ listen beneath ↓
+
+Semantic Clues
+────────────────────────────
+Concepts
+Relationships
+Definitions
+Rules
+Events
+States
+Classifications
+Identifiers
+Ownership
+Terminology
+Constraints
+```
+
+## What to Listen for Across POPIT-V
+
+### People
+
+Listen for:
+
+- roles;
+- actors;
+- ownership;
+- authority;
+- responsibility;
+- specialist knowledge.
+
+Possible semantic questions:
+
+- Who owns this concept?
+- Who is authorised to change it?
+- Who performs this role?
+- Is the role different from the person or team currently performing it?
+
+### Organisation
+
+Listen for:
+
+- domains;
+- capabilities;
+- organisational entities;
+- ownership boundaries;
+- hierarchies;
+- governance relationships.
+
+Possible semantic questions:
+
+- Is this a business capability, team or process?
+- Does the meaning change between business areas?
+- Which domain owns the concept?
+
+### Process
+
+Listen for:
+
+- events;
+- state changes;
+- decisions;
+- relationships;
+- rules;
+- exceptions.
+
+Possible semantic questions:
+
+- What happens to this object when the event occurs?
+- What states can it move through?
+- What rule controls the transition?
+- Can one instance relate to many others?
+
+### Information
+
+Listen for:
+
+- concepts;
+- definitions;
+- attributes;
+- classifications;
+- identifiers;
+- synonyms;
+- KPIs;
+- business rules.
+
+Possible semantic questions:
+
+- What does this term mean here?
+- Is that the same concept as the term another team uses?
+- What uniquely identifies it?
+- Are there different types?
+- Which attributes describe it?
+
+### Technology
+
+Listen for:
+
+- system-specific names;
+- identifiers;
+- physical representations;
+- source mappings;
+- duplication;
+- technical constraints.
+
+Possible semantic questions:
+
+- Is the system name the same as the business concept?
+- Does another system represent the same concept differently?
+- Which identifier can be used across systems?
+- Is a technical field carrying a business rule?
+
+### Value
+
+Listen for:
+
+- outcomes;
+- measures;
+- KPIs;
+- relationships between actions and outcomes;
+- definitions of success.
+
+Possible semantic questions:
+
+- What exactly is being measured?
+- Which business concept does the measure describe?
+- What action is expected to influence the outcome?
+
+---
+
+## Ontology Trigger Questions
+
+Use these naturally when the conversation provides a clue.
+
+When an important noun appears:
+
+> **"What does that mean in your context?"**
+
+When two terms appear similar:
+
+> **"Are those the same thing, or are they genuinely different concepts?"**
+
+When a relationship appears:
+
+> **"Can one of these relate to several of those, or is it always one-to-one?"**
+
+When categories appear:
+
+> **"What different types are there?"**
+
+When a lifecycle appears:
+
+> **"What states can this move through?"**
+
+When a rule appears:
+
+> **"Is that always true, or are there exceptions?"**
+
+When meaning is disputed:
+
+> **"Who owns or approves that definition?"**
+
+When a system term appears:
+
+> **"Is that the business term, or just what the system calls it?"**
+
+The facilitator does not need to use ontology terminology with participants.
+
+The purpose is to uncover meaning without distracting from the business conversation.
+
+---
+
+## Capture Candidates, Not Certainties
+
+Early semantic notes should be treated as candidates.
+
+For example:
+
+```text
+[C] Distribution Contract
+[C] Deal
+[C] Revenue
+[C] Delivery Schedule
+
+[R] Distribution Contract governs Deal
+[R] Deal generates Revenue
+[R] Revenue follows Delivery Schedule
+
+[EVT] Contract Signed
+
+[RULE] Revenue recognition depends on delivery schedule
+
+[OQ] Can one contract govern multiple deals?
+[OWN] Revenue Recognition definition — UNKNOWN
+```
+
+These observations should not automatically become ontology truth.
+
+They require:
+
+- evidence;
+- validation;
+- context;
+- ownership.
+
+If unsupported, retain them as candidates or open questions.
+
+---
+
+## Progressive Semantic Formalisation
+
+Move from lightweight discovery to formal modelling only as confidence and need increase.
+
+```text
+Semantic Clues
+      ↓
+Candidate Concepts / Relationships
+      ↓
+Business Glossary
+      ↓
+Concept Model
+      ↓
+Validated Business Ontology
+      ↓
+Source / Data Mapping
+      ↓
+Formal Semantic Implementation where justified
+```
+
+Do not begin with RDF, OWL, graph technology or source schemas unless the discovery objective genuinely requires them.
+
+Business meaning comes first.
+
+---
+
+## Relationship to the Golden Thread
+
+The Golden Thread and ontology answer different but complementary questions.
+
+The Golden Thread provides **business traceability**:
+
+```text
+Capability
+   ↓
+Process
+   ↓
+Decision
+   ↓
+Information
+   ↓
+Rule
+   ↓
+Technology / Data
+   ↓
+Action
+   ↓
+Value
+```
+
+Ontology provides **business meaning and relationships** within and across those elements.
+
+Example:
+
+```text
+CAP-001 Financial Planning
+        ↓
+PRC-004 Forecasting
+        ↓
+DEC-007 Approve Forecast
+        ↓
+INF-012 Forecast
+        ↓
+BR-006 Forecast Approval Rule
+```
+
+Semantic Listening then asks:
+
+- What exactly is a Forecast?
+- How does a Forecast relate to a Production?
+- Can a Production have several Forecasts?
+- What is a Forecast Version?
+- What makes a Forecast "Approved"?
+- Which Territory or Label owns it?
+- Who owns the definition?
+
+The Golden Thread tells us **why the information matters**.
+
+The ontology tells us **what the information means and how it relates to the rest of the domain**.
+
+---
+
+## Semantic Listening Self-Check
+
+During or immediately after a discovery session ask:
+
+- Which important concepts appeared?
+- Which relationships did stakeholders describe?
+- Which terms were ambiguous?
+- Which terms had multiple names?
+- Which rules were implied?
+- Which events changed business state?
+- Which classifications or hierarchies appeared?
+- Which identifiers were mentioned?
+- Who appears to own the meaning?
+- Which semantic questions remain unanswered?
+
+Do not attempt to answer unsupported questions.
+
+Capture them as `OQ-*` or `UNKNOWN` and use them to guide later discovery.
+
+---
+
+# 28. Practitioner Self-Check
 
 At any moment ask:
 
@@ -526,7 +863,7 @@ At any moment ask:
 
 ---
 
-# 28. Guidance for AI Assistants
+# 29. Guidance for AI Assistants
 
 When generating discovery advice:
 
@@ -552,6 +889,6 @@ Do not:
 
 ---
 
-# 29. The Practitioner Mindset in One Sentence
+# 30. The Practitioner Mindset in One Sentence
 
 > **Do not ask what DISCOVER tells you to do next. Ask what you need to understand next, then use DISCOVER to learn it.**
